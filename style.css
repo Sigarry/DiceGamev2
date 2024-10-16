@@ -11,7 +11,7 @@ footer {
 .grid-container {
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 1fr 1.5fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1.5fr;
 }
 
 .container1 {
