@@ -114,4 +114,8 @@ button {
         height: 80vh;
     }
 
+    .body {
+        background-color: purple;
+    }
+
   }
