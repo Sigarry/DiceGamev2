@@ -11,7 +11,7 @@ footer {
 .grid-container {
     height: 100vh;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1.5fr;
 }
 
 .container1 {
@@ -112,9 +112,5 @@ button {
     .grid-container {
         height: 90vh;
     }
-
-    body {
-    background-color: purple;
-}
 
   }
