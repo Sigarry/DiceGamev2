@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(82, 148, 172);
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+}
+
+.container1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px #000000;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+/* --- Roll the Dice --- */
+.rollTheDice {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 0;
+}
+
+button {
+    grid-column-start: 2;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    padding: 7px 20px;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    touch-action: manipulation;
+    height: fit-content;
+  }
+  
+  button:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+
+/* --- In game result ---*/
+.game-result {
+    text-align: center;
+}
+
+/* --- Dice --- */
+.dice-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+    .playerOneDice, .playerTwoDice{
+        max-width: 100%;
+        max-height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .playerOneDice img, .playerTwoDice img {
+            max-width: 100%;
+            max-height: 100%;
+            max-height: 40vh;
+        }
+
+
+/* Visual Counters */
+.visualCounter1, .visualCounter2 {
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.visualCounter1 div, .visualCounter2 div {
+    border: 1px solid rgb(81, 101, 81);
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    background-color: #c2fbd7;
+    border-radius: 5%;
+}
+
+
